@@ -1,0 +1,157 @@
+.menu:hover{
+    background-color:#63d471;
+    background-image: linear-gradient(315deg, #F14A0B 0%, #ED7215 74%);
+    
+    color: white;
+    cursor: pointer;
+        
+}
+ .menu{
+     float: right;
+     color: black;
+        height:100%;
+        padding:24px;
+         font-size:17px;
+        font-weight:bold;
+
+    }
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+.before{
+    transition: 1s;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    background-color: rgba(255, 255,255,0.9);
+     box-shadow: 0.3px 0.3px 2px gray ;
+    z-index: 99;
+    width: 100%;
+    font-size: 20px;
+    color: black
+        
+        
+}
+
+.after{
+    transition: 1s;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    background-color: rgba(255, 255,255,0.3);
+    box-shadow: 1px 1px 5px ;
+    z-index: 1;
+    width: 100%;
+    font-size: 16px;
+    color: white
+        
+}
+
+
+.nav-wrapper ul{
+    padding: 0px;
+    margin: 0;
+    display: inline-block;
+    right: 0
+        
+        
+}
+
+.nav-wrapper ul li:hover{
+    background-image:linear-gradient(315deg, #eeeeee 0%,  #F5F5F5 74%);
+
+    color:gray;
+    border-bottom: solid;
+    border-bottom-color: grey;
+    
+}
+.nav-wrapper ul li{
+    display: inline-block;
+    padding: 20px;
+    margin: 0px;
+    right: 0px;
+    
+        
+}
+
+.brand-logo{
+   margin-right: 43%;     
+}
+
+.logo_img{
+    width: 7%;
+    margin-bottom:-30px;
+        
+}
+.logo_img_small{
+    width: 28%;
+    margin-bottom:-15px;
+        
+}
+.particle{
+position: relative;
+  width: 100%;
+  height: 100%;
+  background-image:url(img/code/back1.jpg);
+    background-position: bottom;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+
+}.scientific{
+position: relative;
+  width: 100%;
+  height: 100%;
+  background-image:url(img/code/scientific.jpg);
+    background-position: bottom;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+
+}.web{
+position: relative;
+  width: 100%;
+  height: 100%;
+  background-image:url(img/code/back1.jpg);
+    background-position: bottom;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+
+}
+.port{
+position: relative;
+  width: 100%;
+  height: 100%;
+  background-image:url(img/code/back3.jpg);
+    background-position: bottom;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+
+}
+
+.contact{
+position: relative;
+  width: 100%;
+  height: 100%;
+  background-image:url(img/contact2.jpg);
+    background-position: bottom;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+
+}.cv{
+position: relative;
+  width: 100%;
+  height: 100%;
+  background-image:url(img/code/back2.jpg);
+    background-position: bottom;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+
+}
